@@ -1,0 +1,46 @@
+ <!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+
+    <label for="roll"></label>
+    <input type="button" value="Roll" name="Roll" onclick="roll();match();" id="roll">
+    <p>Clicks: <span id="clicks">0</span></p>
+    <p>Matches: <span id="matches">0</span></p>
+    <p>To Level Up: <span id="nextLevel"></span></p>
+    <p>Current Level: <span id="currentLevel"></span></p>
+    <p>Money Earned:  <span id="moneyEarned"></span></p>
+    <br />
+    <progress value="0" min="0" max="100" id="progressBar"></progress>
+
+        <div id="GameWrapper">
+            <div id="Upper">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div id="Middle">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+
+            <div id="Lower">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

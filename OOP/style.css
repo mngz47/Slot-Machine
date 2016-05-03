@@ -1,0 +1,121 @@
+body {
+                background-color: #AAA;
+            }
+
+            .Axe {
+                background-image: url("Images/Axe.png");
+            }
+
+            .ChestBase {
+                background-image: url("Images/ChestBase.png");
+            }
+
+            .ChestAdvanced {
+                background-image: url("Images/ChestAdvanced.png");
+            }
+
+            .ChestExpert {
+                background-image: url("Images/ChestExpert.png");
+            }
+
+            .Gauntlet {
+                background-image: url("Images/Gauntlet.png");
+            }
+
+            .Helmet {
+                background-image: url("Images/Helmet.png");
+            }
+
+            .Orb {
+                background-image: url("Images/Orb.png");
+            }
+
+            .Potion {
+                background-image: url("Images/Potion.png");
+            }
+
+            .Ring {
+                background-image: url("Images/Ring.png");
+            }
+
+            .Shield {
+                background-image: url("Images/Shield.png");
+            }
+
+            .SpellBook {
+                background-image: url("Images/SpellBook.png");
+            }
+
+            .JokerBase {
+                background-image: url("Images/JokerBase.png");
+            }
+
+            .JokerAdvanced {
+              background-image: url("Images/JokerAdvanced.png");
+            }
+
+            .JokerExpert {
+              background-image: url("Images/JokerExpert.png");
+            }
+
+            .TheJoker {
+              background-image: url("Images/TheJoker.jpg");
+            }
+
+
+/*#Upper > div, #Middle > div, #Lower > div {
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    border: 3px solid black;
+    display: inline-block;
+}*/
+
+.slotImage {
+  width: 350px;
+  height: 350px;
+  background-color: #fff;
+  border: 3px solid black;
+  display: inline-block;
+}
+
+#progressBar[value]::-moz-progress-bar {
+    background-image:
+    -moz-linear-gradient(
+      135deg,
+      transparent 33%,
+      rgba(0, 0, 0, 0.1) 33%,
+      rgba(0, 0, 0, 0.1) 66%,
+      transparent 66%
+    ),
+    -moz-linear-gradient(
+      top,
+      rgba(255, 255, 255, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    -moz-linear-gradient(
+      left,
+      #09c,
+      #f44
+    );
+
+  border-radius: 2px;
+  background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+
+.upperMatch {
+    border: 3px solud red !important;
+}
+
+.middleMatch {
+    border: 3px solid green !important;
+}
+
+.lowerMatch {
+    border: 3px solid blue !important;
+}
+
+.rectangularMatch {
+  border: 3px solid yellow !important;
+}
