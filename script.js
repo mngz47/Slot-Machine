@@ -1,3 +1,6 @@
+// line 159 monetize.js
+
+
 var matches = 0;
 var clicks = 0;
 var currentLevel = 1;
@@ -156,6 +159,8 @@ function match() {
       'Rectangular Match');
   }
 
+syncCredits(moneyEarned);
+  
   moneyEarnedElement.innerHTML = moneyEarned;
 }
 
